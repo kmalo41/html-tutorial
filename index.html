@@ -17,38 +17,46 @@
       </ul>
     </nav>
     <header>
-      <div>
-        <h1>Best place to learn frontend</h1>
-        <p>Go from absolute beginner to pro with a simplified process</p>
-        <button>Start now</button>
+      <div class="row">
+        <div>
+          <h1>Best place to learn frontend</h1>
+          <p class="subheader">Go from absolute beginner to pro with a simplified process</p>
+          <button>Start now</button>
+        </div>
+        <figure>
+          <img src="./assets/laptop.png" alt="Home page image">
+        </figure>
       </div>
-      <figure>
-        <img src="./assets/laptop.png" alt="Home page image">
-      </figure>
     </header>
   </section>
 
   <main>
     <section id="about"> 
-      <div>
-        <h2>About</h2>
-        <p>Welcome to our frontend development course! We provide a comprehensive learning experience for beginners and intermediate developers.</p>
-        <p>Welcome to our frontend development course! We provide a comprehensive learning experience for beginners and intermediate developers.</p>
+      <h2>About</h2>
+      <div class="section__description">
+        <div class="section__description-wrapper">
+          <p class="section__description-para">Welcome to our frontend development course! We provide a comprehensive learning experience for beginners and intermediate developers.</p>
+          <p class="section__description-para">Welcome to our frontend development course! We provide a comprehensive learning experience for beginners and intermediate developers.</p>
+        </div>
+        <figure class="about__img-wrapper">
+          <img src="./assets/about.jpg" alt="About page image">
+        </figure>
       </div>
-      <figure>
-        <img src="./assets/about.jpg" alt="About page image">
-      </figure>
     </section>
-    <section id="discord"> 
-      <div>
-        <h2>Discord</h2>
-        <p>Join our Discord community to connect with other learners and get help from our instructors.</p>
-        <p>Join our Discord community to connect with other learners and get help from our instructors.</p>
+
+    <section id="discord">
+      <h2>Discord</h2> 
+      <div class="section__description">
+        <figure class="about__img-wrapper">
+          <img src="./assets/discord.png" alt="Discord page image">
+        </figure>
+        <div class="section__description-wrapper">
+          <p class="section__description-para">Join our Discord community to connect with other learners and get help from our instructors.</p>
+          <p class="section__description-para">Join our Discord community to connect with other learners and get help from our instructors.</p>
+        </div>
       </div>
-      <figure>
-        <img src="./assets/discord.jpg" alt="Discord page image">
-      </figure>
     </section>
+
     <section id="contact"> 
       <div>
         <h2>Contact</h2>
@@ -61,6 +69,8 @@
           <textarea id="message" name="message" required></textarea>
 
           <button type="submit">Submit</button>
+          
+        </form>
       </div>
     </section>
   </main>
