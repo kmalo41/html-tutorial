@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -67,18 +67,20 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
 }
 
 /* About section */
 
 #about,
 #discord,
-#contact {
+#contact,
+#footer {
   padding: 48px 0;
 }
 
 #about {
-   background-color: #f8ffdc;
+  background-color: #f8ffdc;
 }
 
 h2 {
@@ -123,6 +125,41 @@ img {
 
 #contact {
   background-color: #dce9ff;
+}
+
+form {
+  width: 100%;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  margin-bottom: 24px;
+  font-size: 20px;
+  padding: 6px 12px;
+}
+
+/* Footer section */
+
+footer {
+  background-color: #aaf5ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__logo {
+  max-width: 480px;
+  margin-bottom: 16px;
+}
+
+.footer__links {
+  margin-bottom: 32px;
+}
+
+.footer__link {
+  padding: 0 16px;
 }
